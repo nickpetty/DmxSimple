@@ -8,7 +8,8 @@
 #include <util/delay.h>
 #include "pins_arduino.h"
 
-#include "wiring.h"
+// #include "wiring.h" wiring.h is no longer used and has been replaced by Arduino.h
+#include "Arduino.h"
 #include "DmxSimple.h"
 
 /** dmxBuffer contains a software copy of all the DMX channels.
